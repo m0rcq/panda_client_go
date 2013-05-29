@@ -71,7 +71,14 @@ func main() {
 				fmt.Println("Video ID:", video["id"].(string))
 				fmt.Println("Original Filename:", video["original_filename"].(string))
 				fmt.Println("Status:", video["status"].(string))
-				fmt.Println("Error Message:", video["error_message"].(string))
+
+                error_message := "n/a"
+                
+                if video["error_message"] != nil {
+                    error_message = video["error_message"].(string)
+                }
+
+                fmt.Println("Error Message:", error_message)
 				fmt.Println("============")
 			}
 

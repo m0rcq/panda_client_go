@@ -58,7 +58,9 @@ $GOBIN/panda_client_cmd --resource videos --cmd delete --id 1234567890
 $GOBIN/panda_client_cmd --resource encodings --cmd info
 (get all encodings)
 
-(or provide CloudId/AccessKey/SecretKey/ApiHost via command line as: --cloudId / --accessKey / --secretKey --apiHost)
+(or provide CloudId/AccessKey/SecretKey/ApiHost via command line as: --cloudId / --accessKey / --secretKey --apiHost) e.g.
+
+$GOBIN/panda_client_cmd --accessKey <access_key> --secretKey <secret_key> --cloudId <cloud_id> --resource videos --cmd info
 
 Public functions
 ----------------
