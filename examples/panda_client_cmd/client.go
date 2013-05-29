@@ -10,7 +10,7 @@ import (
 
 const (
 	defaultCloudId   = "<INSERT YOUR CLOUD ID HERE>"
-	defaultAccessKe  = "<INSERT YOUR ACCESS KEY HERE>"
+	defaultAccessKey = "<INSERT YOUR ACCESS KEY HERE>"
 	defaultSecretKey = "<INSERT YOUR SECRET KEY HERE>"
 	defaultApiHost   = "api.pandastream.com"
 )
